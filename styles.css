@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body { 
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #202124;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.google-logo {
+    font-size: 92px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    letter-spacing: -3px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.search-bar:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar:focus {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-color: #4285f4;
+}
+
+.search-button {
+    padding: 10px 24px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.search-button:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+.button-container {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.lucky-button {
+    padding: 10px 24px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.lucky-button:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+.lucky-button:active {
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+}
+
+/* Advanced Search Styles */
+.advanced-search-main {
+    height: auto;
+    padding: 30px 40px;
+    justify-content: flex-start;
+}
+
+.advanced-search-main h1 {
+    color: #1a73e8;
+    font-size: 24px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+}
+
+.advanced-form {
+    width: 100%;
+    max-width: 100%;
+    gap: 0;
+    align-items: flex-start;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.advanced-input {
+    width: 500px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s;
+    text-align: left;
+}
+
+.advanced-input:focus {
+    border-color: #4285f4;
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.advanced-button {
+    padding: 10px 24px;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.advanced-button:hover {
+    background-color: #3367d6;
+}
+
+.advanced-button:active {
+    background-color: #2e5cb8;
+}

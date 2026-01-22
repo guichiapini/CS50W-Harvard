@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<style>@import url('styles.css');</style>
+
+<html lang="en">
+    <head>
+        <title>Advanced Search - Google</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><strong>Google Search</strong></a>
+            </nav>
+        </header>
+        <main class="advanced-search-main">
+            <h1>Advanced Search</h1>
+            <form action="https://www.google.com/search" method="get" class="advanced-form">
+                <div class="form-group">
+                    <label for="all_words">Find pages with all of the words:</label>
+                    <input type="text" id="all_words" name="as_q" class="advanced-input" placeholder="Type the important words:">
+                </div>
+                <div class="form-group">
+                    <label for="exact_phrase">This exact word or phrase:</label>
+                    <input type="text" id="exact_phrase" name="as_epq" class="advanced-input" placeholder="Put exact words in quotes:">
+                </div>
+                <div class="form-group">
+                    <label for="any_words">Any of these words:</label>
+                    <input type="text" id="any_words" name="as_oq" class="advanced-input" placeholder="Type the words you want:">
+                </div>
+                <div class="form-group">
+                    <label for="exclude_words">But exclude the words:</label>
+                    <input type="text" id="exclude_words" name="as_eq" class="advanced-input" placeholder="Type the words to exclude:">
+                </div>
+                <div class="form-buttons">
+                    <input type="submit" value="Advanced Search" class="advanced-button">
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
